@@ -86,4 +86,8 @@ class ProbarSistemaPrestamo(unittest.TestCase):
         nuevo_prestamo = Prestamo()
         valor = nuevo_prestamo.valor_total(prestamo=21000,tiempo=10)
         self.assertEqual(valor,None)
+
+if __name__=='__main__':
+    unittest.main()
+
         

@@ -1,0 +1,12 @@
+language: python
+python:
+  - "2.7"
+
+before_install: "pip install -r requeriments.txt"
+
+script: 
+  - "coverage run --source=prestamo manage.py
+  test prestamo"
+
+after_script:
+  - "coveralls"
