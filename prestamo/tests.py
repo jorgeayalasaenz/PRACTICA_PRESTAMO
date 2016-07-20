@@ -47,7 +47,7 @@ class ProbarSistemaPrestamo(unittest.TestCase):
         '''CAPITAL REQUERIDO:
                 CE1: [10000,20000]
             TIEMPO:
-                CE1: [7,12]
+                CE1: [7,12]fff
 
         '''
         nuevo_prestamo = Prestamo()
