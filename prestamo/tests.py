@@ -24,7 +24,7 @@ class ProbarSistemaPrestamo(unittest.TestCase):
     def test_escenario1(self):
         '''CAPITAL REQUERIDO:
                 CE1: [0,5000]
-            TIEMPO:
+            TIEMPO:rrr
                 CE1: [0,3]
 
         '''
